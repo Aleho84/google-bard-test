@@ -1,0 +1,44 @@
+{
+  "name": "google-bard-test",
+  "version": "0.1.0",
+  "description": "google-bard-test with bard-ai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "set NODE_ENV=prod&& node .",
+    "dev": "set NODE_ENV=dev&& nodemon --no-warnings ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleho84/google-bard-test.git"
+  },
+  "keywords": [
+    "google",
+    "bard",
+    "test"
+  ],
+  "author": {
+    "name": "Alejandro Abraham",
+    "email": "alejandro.r.abraham@gmail.com",
+    "url": "https://github.com/Aleho84"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleho84/google-bard-test/issues"
+  },
+  "homepage": "https://github.com/Aleho84/google-bard-test#readme",
+  "dependencies": {
+    "bard-ai": "^2.0.3",
+    "cli-spinners": "^2.9.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules",
+      "*.json"
+    ]
+  }
+}
